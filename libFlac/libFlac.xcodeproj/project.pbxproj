@@ -11,13 +11,13 @@
 		94974A841CF59BD600DE6377 /* libFlac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94974A791CF59BD600DE6377 /* libFlac.framework */; };
 		94974A891CF59BD600DE6377 /* libFlacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94974A881CF59BD600DE6377 /* libFlacTests.m */; };
 		94974EE91CF59E2F00DE6377 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B311CF59E2E00DE6377 /* all.h */; };
-		94974EEB1CF59E2F00DE6377 /* callback.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B331CF59E2E00DE6377 /* callback.h */; };
-		94974EEC1CF59E2F00DE6377 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B341CF59E2E00DE6377 /* export.h */; };
-		94974EED1CF59E2F00DE6377 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B351CF59E2E00DE6377 /* format.h */; };
-		94974EF11CF59E2F00DE6377 /* metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B391CF59E2E00DE6377 /* metadata.h */; };
-		94974EF21CF59E2F00DE6377 /* ordinals.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3A1CF59E2E00DE6377 /* ordinals.h */; };
-		94974EF31CF59E2F00DE6377 /* stream_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3B1CF59E2E00DE6377 /* stream_decoder.h */; };
-		94974EF41CF59E2F00DE6377 /* stream_encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3C1CF59E2E00DE6377 /* stream_encoder.h */; };
+		94974EEB1CF59E2F00DE6377 /* callback.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B331CF59E2E00DE6377 /* callback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94974EEC1CF59E2F00DE6377 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B341CF59E2E00DE6377 /* export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94974EED1CF59E2F00DE6377 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B351CF59E2E00DE6377 /* format.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94974EF11CF59E2F00DE6377 /* metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B391CF59E2E00DE6377 /* metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94974EF21CF59E2F00DE6377 /* ordinals.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3A1CF59E2E00DE6377 /* ordinals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94974EF31CF59E2F00DE6377 /* stream_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3B1CF59E2E00DE6377 /* stream_decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94974EF41CF59E2F00DE6377 /* stream_encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3C1CF59E2E00DE6377 /* stream_encoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94974EF51CF59E2F00DE6377 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3E1CF59E2E00DE6377 /* all.h */; };
 		94974EF61CF59E2F00DE6377 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B3F1CF59E2E00DE6377 /* decoder.h */; };
 		94974EF71CF59E2F00DE6377 /* encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974B401CF59E2E00DE6377 /* encoder.h */; };
@@ -41,7 +41,6 @@
 		94974F621CF59E2F00DE6377 /* analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = 94974BBB1CF59E2E00DE6377 /* analyze.c */; };
 		94974F631CF59E2F00DE6377 /* analyze.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974BBC1CF59E2E00DE6377 /* analyze.h */; };
 		94974F641CF59E2F00DE6377 /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 94974BBD1CF59E2E00DE6377 /* decode.c */; };
-		94974F651CF59E2F00DE6377 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974BBE1CF59E2E00DE6377 /* decode.h */; };
 		94974F661CF59E2F00DE6377 /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 94974BBF1CF59E2E00DE6377 /* encode.c */; };
 		94974F671CF59E2F00DE6377 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974BC01CF59E2E00DE6377 /* encode.h */; };
 		94974F6B1CF59E2F00DE6377 /* foreign_metadata.c in Sources */ = {isa = PBXBuildFile; fileRef = 94974BC41CF59E2E00DE6377 /* foreign_metadata.c */; };
@@ -125,7 +124,6 @@
 		949750BA1CF59E2F00DE6377 /* endswap.c in Sources */ = {isa = PBXBuildFile; fileRef = 94974D351CF59E2F00DE6377 /* endswap.c */; };
 		949750BB1CF59E2F00DE6377 /* endswap.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974D361CF59E2F00DE6377 /* endswap.h */; };
 		949750BC1CF59E2F00DE6377 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 94974D371CF59E2F00DE6377 /* format.c */; };
-		949750BD1CF59E2F00DE6377 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974D381CF59E2F00DE6377 /* format.h */; };
 		949750C41CF59E2F00DE6377 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 94974D3F1CF59E2F00DE6377 /* md5.c */; };
 		949750C51CF59E2F00DE6377 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974D401CF59E2F00DE6377 /* md5.h */; };
 		949751D11CF59E2F00DE6377 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 94974E5E1CF59E2F00DE6377 /* config.h */; };
@@ -2721,7 +2719,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94974EED1CF59E2F00DE6377 /* format.h in Headers */,
+				94974EEB1CF59E2F00DE6377 /* callback.h in Headers */,
+				94974EEC1CF59E2F00DE6377 /* export.h in Headers */,
 				94974FB21CF59E2F00DE6377 /* all.h in Headers */,
+				94974EF41CF59E2F00DE6377 /* stream_encoder.h in Headers */,
+				94974EF31CF59E2F00DE6377 /* stream_decoder.h in Headers */,
+				94974EF21CF59E2F00DE6377 /* ordinals.h in Headers */,
+				94974EF11CF59E2F00DE6377 /* metadata.h in Headers */,
 				949751D81CF5C04F00DE6377 /* assert.h in Headers */,
 				94974EF51CF59E2F00DE6377 /* all.h in Headers */,
 				94974FB31CF59E2F00DE6377 /* bitmath.h in Headers */,
@@ -2729,26 +2734,22 @@
 				94974FB61CF59E2F00DE6377 /* cpu.h in Headers */,
 				94974F7A1CF59E2F00DE6377 /* utils.h in Headers */,
 				94974EFC1CF59E2F00DE6377 /* metadata.h in Headers */,
-				94974F651CF59E2F00DE6377 /* decode.h in Headers */,
 				94974F011CF59E2F00DE6377 /* compat.h in Headers */,
 				94974FC01CF59E2F00DE6377 /* md5.h in Headers */,
 				949750BB1CF59E2F00DE6377 /* endswap.h in Headers */,
 				94974F051CF59E2F00DE6377 /* file.h in Headers */,
 				94974F021CF59E2F00DE6377 /* endswap.h in Headers */,
-				94974FCF1CF59E2F00DE6377 /* stream_encoder.h in Headers */,
 				9497502A1CF59E2F00DE6377 /* all.h in Headers */,
+				94974FCF1CF59E2F00DE6377 /* stream_encoder.h in Headers */,
 				9497502F1CF59E2F00DE6377 /* dither.h in Headers */,
 				94974F671CF59E2F00DE6377 /* encode.h in Headers */,
 				94974F0B1CF59E2F00DE6377 /* seektable.h in Headers */,
-				94974FCE1CF59E2F00DE6377 /* stream_decoder.h in Headers */,
 				94974F131CF59E2F00DE6377 /* replaygain_synthesis.h in Headers */,
+				94974FCE1CF59E2F00DE6377 /* stream_decoder.h in Headers */,
 				949750391CF59E2F00DE6377 /* replaygain.h in Headers */,
 				94974F031CF59E2F00DE6377 /* getopt.h in Headers */,
-				94974EF31CF59E2F00DE6377 /* stream_decoder.h in Headers */,
 				94974F631CF59E2F00DE6377 /* analyze.h in Headers */,
-				94974EF21CF59E2F00DE6377 /* ordinals.h in Headers */,
 				94974FB41CF59E2F00DE6377 /* bitreader.h in Headers */,
-				94974EF11CF59E2F00DE6377 /* metadata.h in Headers */,
 				94974FCA1CF59E2F00DE6377 /* all.h in Headers */,
 				94974FBC1CF59E2F00DE6377 /* macros.h in Headers */,
 				949750511CF59E2F00DE6377 /* tag.h in Headers */,
@@ -2772,23 +2773,18 @@
 				949750C51CF59E2F00DE6377 /* md5.h in Headers */,
 				94974FB71CF59E2F00DE6377 /* crc.h in Headers */,
 				94974FC11CF59E2F00DE6377 /* memory.h in Headers */,
-				949750BD1CF59E2F00DE6377 /* format.h in Headers */,
-				94974EED1CF59E2F00DE6377 /* format.h in Headers */,
 				949750B51CF59E2F00DE6377 /* bitwriter.h in Headers */,
 				94974A7D1CF59BD600DE6377 /* libFlac.h in Headers */,
-				94974EF41CF59E2F00DE6377 /* stream_encoder.h in Headers */,
 				94974EF71CF59E2F00DE6377 /* encoder.h in Headers */,
 				94974F091CF59E2F00DE6377 /* picture.h in Headers */,
 				94974FB91CF59E2F00DE6377 /* float.h in Headers */,
 				94974FC91CF59E2F00DE6377 /* window.h in Headers */,
-				94974EEC1CF59E2F00DE6377 /* export.h in Headers */,
 				94974FC71CF59E2F00DE6377 /* stream_encoder.h in Headers */,
 				94974F121CF59E2F00DE6377 /* replaygain_analysis.h in Headers */,
 				94974F0D1CF59E2F00DE6377 /* macros.h in Headers */,
 				94974FAE1CF59E2F00DE6377 /* nasm.h in Headers */,
 				94974F001CF59E2F00DE6377 /* alloc.h in Headers */,
 				94974F0A1CF59E2F00DE6377 /* replaygain.h in Headers */,
-				94974EEB1CF59E2F00DE6377 /* callback.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

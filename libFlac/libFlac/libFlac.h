@@ -19,7 +19,6 @@ FOUNDATION_EXPORT const unsigned char libFlacVersionString[];
 
 #include "export.h"
 
-#include "assert.h"
 #include "callback.h"
 #include "format.h"
 #include "metadata.h"
@@ -27,6 +26,3 @@ FOUNDATION_EXPORT const unsigned char libFlacVersionString[];
 #include "stream_decoder.h"
 #include "stream_encoder.h"
 
-
-#include "encoder.h"
-#include "decoder.h"
