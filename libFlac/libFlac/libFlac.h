@@ -17,4 +17,16 @@ FOUNDATION_EXPORT const unsigned char libFlacVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <libFlac/PublicHeader.h>
 
 
-#import "all.h"
+#include "export.h"
+
+#include "assert.h"
+#include "callback.h"
+#include "format.h"
+#include "metadata.h"
+#include "ordinals.h"
+#include "stream_decoder.h"
+#include "stream_encoder.h"
+
+
+#include "encoder.h"
+#include "decoder.h"
